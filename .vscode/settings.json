@@ -1,0 +1,23 @@
+{
+    "editor.fontSize": 15,
+    "window.zoomLevel": 0.5,
+    "editor.wordWrap": "on",
+
+    "background.enabled": true,
+    "background.fullscreen": {
+        "images": ["C:\\Users\\Orkhan\\Pictures\\Wallpaper\\1920x1080"],
+        "opacity": 0.1,
+        "size": "cover",
+        "position": "center",
+        "interval": 0,
+        "random": false
+    },
+    "background.sidebar": {
+        "images": ["C:\\Users\\Orkhan\\Pictures\\Wallpaper\\Sidebar"],
+        "opacity": 0.1,
+        "size": "cover",
+        "position": "center",
+        "interval": 0,
+        "random": false
+    }
+}
