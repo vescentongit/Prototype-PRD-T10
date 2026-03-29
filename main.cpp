@@ -78,10 +78,16 @@ int main(){
     for(int node : path){
         // cout << campus.nodes[node].name << " (x=" << campus.nodes[node].x << ", y=" << campus.nodes[node].y << ")\n";
         if (node != path.back()){
-            cout << campus.nodes[node].name << " --> ";
+            cout << campus.nodes[node].name 
+            << " (x= " << campus.nodes[node].x 
+            << ", y=" << campus.nodes[node].y 
+            <<" --> ";
         }
         else{
-            cout << campus.nodes[node].name << endl;
+            cout << campus.nodes[node].name 
+            << " (x= " << campus.nodes[node].x 
+            << ", y=" << campus.nodes[node].y 
+            << endl;
         }
         
     }
